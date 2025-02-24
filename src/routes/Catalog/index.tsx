@@ -10,13 +10,16 @@ export default function Catalog() {
         <>
             <Header />
             <main className="ct-catalog-main">
-                <section id="ct-catalog-section">
+                <section id="ct-catalog-section" className="ct-container">
+
                     <div className="ct-search-bar-container">
                         <SearchBar />
                     </div>
+
                     <div className="ct-catalog-cards-container">
                         <div>Teste</div>
                     </div>
+
                 </section>
 
 
